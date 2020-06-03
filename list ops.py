@@ -1,0 +1,10 @@
+numbers = [4, 3, 5, 2, 7, 3]
+print(numbers.index(5))
+print(40 in numbers)
+print(numbers.count(3))
+numbers.sort()
+numbers.reverse()
+print(numbers)
+numbers2 = numbers.copy()
+numbers.append(10)
+print(numbers2)
